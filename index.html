@@ -84,7 +84,7 @@
     .faculties {
       margin-top: 30px;
       font-size: 14px;
-      line-height: 1.6;
+      line-height: 1.8;
       text-align: center;
       color: #005BAA;
       font-family: 'HelveticaNeueRoman', Arial, sans-serif;
@@ -95,21 +95,9 @@
       margin-bottom: 10px;
     }
 
-    .faculties ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 auto;
-      max-width: 360px;
-      text-align: center;
-    }
-
-    .faculties ul li {
-      margin-bottom: 5px;
-    }
-
-    .faculties ul li::before {
-      content: "• ";
-      color: #005BAA;
+    .faculties span {
+      display: inline-block;
+      margin: 0 5px;
     }
   </style>
 </head>
@@ -142,16 +130,16 @@
 
     <div class="faculties">
       <h3><strong>Faculties of:</strong></h3>
-      <ul>
-        <li>Medicine, Bioscience and Nursing</li>
-        <li>Pharmacy</li>
-        <li>Dentistry</li>
-        <li>Health Sciences</li>
-        <li>Engineering and Built Environment</li>
-        <li>Business, Finance & Information Technology and Hospitality</li>
-        <li>Centre of Education and Language</li>
-        <li>Centre of Pre-University Studies</li>
-      </ul>
+      <p>
+        <span>• Medicine, Bioscience and Nursing</span>
+        <span>• Pharmacy</span>
+        <span>• Dentistry</span><br>
+        <span>• Health Sciences</span>
+        <span>• Engineering and Built Environment</span><br>
+        <span>• Business, Finance & Information Technology and Hospitality</span><br>
+        <span>• Centre of Education and Language</span>
+        <span>• Centre of Pre-University Studies</span>
+      </p>
     </div>
   </div>
 </body>
