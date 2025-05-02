@@ -35,21 +35,25 @@
     .btn:hover {
       background: #0056b3;
     }
-    .info {
-      margin-top: 20px;
-      font-size: 14px;
-      text-align: left;
-    }
-    .info h3 {
-      margin-top: 20px;
-      font-size: 16px;
-      text-decoration: underline;
-    }
+    .info,
     .faculties {
-      margin-top: 20px;
-      font-size: 13px;
+      margin-top: 25px;
+      font-size: 14px;
       line-height: 1.6;
-      text-align: left;
+      text-align: center;
+    }
+    .info p,
+    .faculties p {
+      margin: 5px 0;
+    }
+    .faculties ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+    .faculties ul li::before {
+      content: "• ";
+      color: #007bff;
     }
   </style>
 </head>
@@ -64,27 +68,32 @@
     <a class="btn" href="https://raw.githubusercontent.com/JoeFlyrics/Tun-Zaki-Azmi-card/main/tun-zaki-azmi.vcf" download>📥 Save Contact</a>
 
     <div class="info">
-      <h3>Chancellery</h3>
-      <p>Level 11, Unity Building, Jalan SP2,<br>Bandar Saujana Putra, 42610 Jenjarom,<br>Selangor, Malaysia.</p>
+      <h3><strong>Chancellery</strong></h3>
+      <p>Level 11, Unity Building, Jalan SP2,<br>
+      Bandar Saujana Putra, 42610 Jenjarom,<br>
+      Selangor, Malaysia.</p>
 
       <p><strong>Tel:</strong> +60 12-323 5563</p>
-      <p><strong>Email:</strong> zakiazmi.za@gmail.com<br>azmizaki@yahoo.com</p>
+      <p><strong>Email:</strong><br>
+      zakiazmi.za@gmail.com<br>
+      azmizaki@yahoo.com</p>
       <p><strong>Toll Free:</strong> 1800 88 0300</p>
-      <p><strong>Website:</strong> <a href="https://www.mahsa.edu.my" target="_blank">www.mahsa.edu.my</a></p>
+      <p><strong>Website:</strong><br>
+      <a href="https://www.mahsa.edu.my" target="_blank">www.mahsa.edu.my</a></p>
     </div>
 
     <div class="faculties">
-      <h3>Faculties of:</h3>
-      <p>
-        • Medicine, Bioscience and Nursing<br>
-        • Pharmacy<br>
-        • Dentistry<br>
-        • Health Sciences<br>
-        • Engineering and Built Environment<br>
-        • Business, Finance & Information Technology and Hospitality<br>
-        • Centre of Education and Language<br>
-        • Centre of Pre-University Studies
-      </p>
+      <h3><strong>Faculties of:</strong></h3>
+      <ul>
+        <li>Medicine, Bioscience and Nursing</li>
+        <li>Pharmacy</li>
+        <li>Dentistry</li>
+        <li>Health Sciences</li>
+        <li>Engineering and Built Environment</li>
+        <li>Business, Finance & IT and Hospitality</li>
+        <li>Centre of Education and Language</li>
+        <li>Centre of Pre-University Studies</li>
+      </ul>
     </div>
   </div>
 </body>
