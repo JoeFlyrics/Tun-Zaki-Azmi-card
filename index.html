@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tun Zaki Azmi – Chancellor</title>
 
-  <!-- Embed Helvetica Neue Web Fonts -->
   <style>
     @font-face {
       font-family: 'HelveticaNeueBold';
@@ -91,14 +90,28 @@
       font-family: 'HelveticaNeueRoman', Arial, sans-serif;
     }
 
-    .faculties strong {
+    .faculties h3 {
       font-family: 'HelveticaNeueBold', Arial, sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .faculties ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 360px;
+      text-align: left;
+      display: inline-block;
+    }
+
+    .faculties ul li::before {
+      content: "• ";
+      color: #005BAA;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <!-- MAHSA Logo -->
     <img src="MAHSA U Logo.png" alt="MAHSA Logo" class="logo" />
 
     <h2>Tun Zaki Azmi</h2>
@@ -125,9 +138,17 @@
     </div>
 
     <div class="faculties">
-      <p><strong>Faculties of :</strong> Medicine, Bioscience and Nursing • Pharmacy • Dentistry • Health Sciences<br>
-      • Engineering and Built Environment • Business, Finance & Information Technology and Hospitality<br>
-      • Centre of Education and Language • Centre of Pre-University Studies</p>
+      <h3><strong>Faculties of:</strong></h3>
+      <ul>
+        <li>Medicine, Bioscience and Nursing</li>
+        <li>Pharmacy</li>
+        <li>Dentistry</li>
+        <li>Health Sciences</li>
+        <li>Engineering and Built Environment</li>
+        <li>Business, Finance & Information Technology and Hospitality</li>
+        <li>Centre of Education and Language</li>
+        <li>Centre of Pre-University Studies</li>
+      </ul>
     </div>
   </div>
 </body>
